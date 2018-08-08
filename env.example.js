@@ -1,6 +1,7 @@
 module.exports = {
   devServer: {
-    host: 'localhost',
-    port: 3000
+    host: '0.0.0.0',
+    port: 8080,
+    allowedHosts: ['.c9users.io']
   }
 };
